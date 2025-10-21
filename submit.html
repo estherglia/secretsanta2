@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+</head>
+<body>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica">&lt;!DOCTYPE html&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica">&lt;html lang="en"&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica">&lt;head&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">    </span>&lt;title&gt;Secret Santa Gift Submission&lt;/title&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">    </span>&lt;style&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f0f8f0; display: grid; place-items: center; min-height: 100vh; }</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>.container { background: #fff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 2rem 3rem; width: 90%; max-width: 500px; }</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>h1 { color: #d90429; text-align: center; }</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>.form-group { margin-bottom: 1.5rem; }</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>label { display: block; margin-bottom: 0.5rem; font-weight: 600; color: #333; }</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>input, select { width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>button { width: 100%; padding: 1rem; background: #2a9d8f; color: white; border: none; border-radius: 4px; font-size: 1rem; font-weight: 700; cursor: pointer; transition: background 0.2s; }</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>button:hover { background: #264653; }</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>#success-message { text-align: center; color: #2a9d8f; font-weight: 700; display: none; }</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>.help-text { font-size: 0.9rem; color: #666; margin-top: 0.5rem; }</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">    </span>&lt;/style&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica">&lt;/head&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica">&lt;body&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>&lt;h1&gt;Submit Your Gift&lt;/h1&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>&lt;form id="giftForm"&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>&lt;div class="form-group"&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>&lt;label for="yourName"&gt;Your Name:&lt;/label&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>&lt;select id="yourName" name="yourName" required&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                    </span>&lt;option value="" disabled selected&gt;-- Select your name --&lt;/option&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                    </span>&lt;option value="Ron Mantel"&gt;Ron Mantel&lt;/option&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                    </span>&lt;option value="Kendra Bernstein"&gt;Kendra Bernstein&lt;/option&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                    </span>&lt;option value="Swathi Krothapalli"&gt;Swathi Krothapalli&lt;/option&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                    </span>&lt;option value="Sabrina Dobbs"&gt;Sabrina Dobbs&lt;/option&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                    </span>&lt;option value="Omar Garcia"&gt;Omar Garcia&lt;/option&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                    </span>&lt;option value="Sean Stallings"&gt;Sean Stallings&lt;/option&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                    </span>&lt;option value="Esther Ly"&gt;Esther Ly&lt;/option&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                    </span>&lt;option value="Kate Elisha"&gt;Kate Elisha&lt;/option&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                    </span>&lt;option value="Ebony Dixon"&gt;Ebony Dixon&lt;/option&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                    </span>&lt;option value="Jillian DiPaolo"&gt;Jillian DiPaolo&lt;/option&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>&lt;/select&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>&lt;/div&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; min-height: 14.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span></font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>&lt;div class="form-group"&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>&lt;label for="giftName"&gt;Gift Name (e.g., "Fuzzy Socks", "Coffee Mug"):&lt;/label&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>&lt;input type="text" id="giftName" name="giftName" required&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>&lt;/div&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px"><br></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>&lt;div class="form-group"&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>&lt;label for="giftLink"&gt;Link to Gift (URL):&lt;/label&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>&lt;input type="url" id="giftLink" name="giftLink" placeholder="https://www.amazon.com/..." required&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>&lt;p class="help-text"&gt;Please ensure the gift is $30 or under.&lt;/p&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>&lt;/div&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px"><br></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>&lt;div class="form-group"&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>&lt;label for="imageLink"&gt;Link to Gift *Image* (URL):&lt;/label&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>&lt;input type="url" id="imageLink" name="imageLink" placeholder="https://m.media-amazon.com/images/I/..." required&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>&lt;p class="help-text"&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                    </span>&lt;strong&gt;Important:&lt;/strong&gt; Go to the gift link, &lt;strong&gt;right-click&lt;/strong&gt; on the item's main image, and select &lt;strong&gt;"Copy Image Address"&lt;/strong&gt; (or "Copy Image Link"). Paste that link here.</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>&lt;/p&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>&lt;/div&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px"><br></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>&lt;button type="submit"&gt;Submit My Gift&lt;/button&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>&lt;/form&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>&lt;p id="success-message"&gt;Thank you! Your gift has been submitted!&lt;/p&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">    </span>&lt;/div&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px"><br></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">    </span>&lt;script&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>document.getElementById('giftForm').addEventListener('submit', function(e) {</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>e.preventDefault(); // Stop the form from submitting normally</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px"><br></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>const newGift = {</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>from: document.getElementById('yourName').value,</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>giftName: document.getElementById('giftName').value,</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>link: document.getElementById('giftLink').value,</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>img: document.getElementById('imageLink').value</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>};</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px"><br></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>// Get existing gifts from localStorage, or create a new array</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>let gifts = JSON.parse(localStorage.getItem('secretSantaGifts')) || [];</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px"><br></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>// Check if this person has already submitted</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>const existingSubmission = gifts.find(gift =&gt; gift.from === newGift.from);</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>if (existingSubmission) {</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>if (!confirm('You have already submitted a gift. Do you want to overwrite it?')) {</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                    </span>return; // Stop if they click "Cancel"</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>}</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>// Remove old submission</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">                </span>gifts = gifts.filter(gift =&gt; gift.from !== newGift.from);</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>}</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; min-height: 14.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span></font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>// Add the new gift</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>gifts.push(newGift);</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px"><br></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>// Save the updated list back to localStorage</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>localStorage.setItem('secretSantaGifts', JSON.stringify(gifts));</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px"><br></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>// Show success message and hide form</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>document.getElementById('giftForm').style.display = 'none';</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">            </span>document.getElementById('success-message').style.display = 'block';</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">        </span>});</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica"><span class="Apple-converted-space">    </span>&lt;/script&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica">&lt;/body&gt;</font></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px"><font face="Helvetica" size="3" style="font: 12.0px Helvetica">&lt;/html&gt;</font></p>
+</body>
+</html>
